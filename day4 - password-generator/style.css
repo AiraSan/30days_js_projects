@@ -11,7 +11,7 @@ body {
 .container {
     margin: 12%;
     width: 90%;
-    max-width: 700px;
+    max-width: 600px;
 }
 .display {
     width: 100%;
@@ -60,4 +60,14 @@ body {
     padding: 16px 26px;
     border-radius: 5px;
     cursor: pointer;
+}
+
+@media only screen and (max-width: 480px) {
+    .container {
+        margin: 40px 0 0 20px;
+        width: 100%;
+    }
+    .container h1 {
+        line-height: 1.5em;
+    }
 }
